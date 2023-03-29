@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00292a;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+
+
+header h3{
+  color: white;
+  position: absolute;
+  left: 600px;
+  font-size: 30px;
+}
+header ul{
+  flex: 1;
+}
+header ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 1px;
+  position: relative;
+}
+header ul li a.no-bg{
+  border: 2px solid;
+  padding: 10px 20px;
+  border-color: white;
+  border-radius: 25px;
+  margin: 1px;
+}
+header ul li a.with-bg{
+  text-decoration: none;
+  color: white;
+  border: 2px solid;
+  border-color: white;
+  background-color: darkslategray;
+  border-radius: 25px;
+  padding: 10px 20px;
+  position: relative;
+  margin: 1px;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+header ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: lightseagreen;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  transition: 0.3s;
+}
+header ul li:hover:after{
+  width: 100%;
+}
+main{
+  min-height: calc( 100% - 107px - 40px );
+}
+main .background{
+  background-attachment: fixed;
+  display: flex;
+  margin-bottom: 3px;
+}
+.background img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.pic1 img{
+position:absolute;
+margin-top: -330px;
+margin-left: 45px;
+width: 150px;
+height: 150px;
+border: 2px solid;
+border-radius: 100px;
+background: rgba(255,255,255,0.3);
+color: white;
+}
+.name1{
+ color: white;
+ position: absolute;
+ margin-top: -630px;
+ margin-left: 263px;
+ font-family: cursive;
+ font-size: 20px;
+ border-bottom: 2px solid;
+ border-bottom-color: darkred;
+ border-radius: 25px;
+ padding: 1px 5px;
+}
+.info1{
+ position: absolute;
+ width: 250px;
+ margin-top: -540px;
+ margin-left: 240px;
+ box-shadow: inset 0 0 0 0;
+  transition: ease-in-out 0.4s;
+  background: rgba(0,0,0,0.2);
+  border-radius: 25px;
+  color: white;
+}
+.info1 p{
+  font-size: 16px;
+ text-align: center;
+ border-top: 2px solid;
+ border-bottom: 2px solid;
+ margin: 1px;
+ border-radius: 25px;
+ box-shadow: 0 25px 25px rgba( 0, 0, 0, 0.8);
+ background: rgba(0,0,0,0.5);
+ 
+}
+.info1:hover{
+  box-shadow: inset 250px 0 0 0 black;
+  cursor: pointer;
+  color: white;
+}
+.pic2 img{
+position: absolute;
+margin-top: -330px;
+margin-left: 800px;
+width: 150px;
+height: 150px;
+border: 2px solid;
+border-radius: 100px;
+background: rgba(255,255,255, 0.3);
+color: white;
+}
+.name2{
+ color: white;
+ position: absolute;
+ margin-top: -430px;
+ margin-left: 538px;
+ font-family: cursive;
+ font-size: 20px;
+ border-bottom: 2px solid;
+ border-bottom-color: darkred;
+ border-radius: 25px;
+ padding: 1px 5px;
+}
+.info2{
+ position: absolute;
+ width: 250px;
+ margin-top: -370px;
+ margin-left: 510px;
+ box-shadow: inset 0 0 0 0;
+  transition: ease-in-out 0.4s;
+  background: rgba(0,0,0,0.2);
+  border-radius: 25px;
+  color: white;
+}
+.info2 p{
+ text-align: center;
+ border-top: 2px solid;
+ border-bottom: 2px solid;
+ margin: 1px;
+ border-radius: 25px;
+ box-shadow: 0 25px 25px rgba( 0, 0, 0, 0.8);
+ background: rgba(0,0,0,0.5);
+ 
+}
+.info2:hover{
+  box-shadow: inset 250px 0 0 0 black;
+  cursor:pointer;
+  color: white;
+}
+.button1 a{
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 268px;
+  padding: 8px;
+  width: 200px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: inset 0 0 0 0;
+  transition: ease-in-out 0.4s;
+  background: white;
+  border-radius: 25px;
+  color: black;
+  text-decoration:none;
+  font-size: 15px;
+}
+.button1 a:hover{
+  box-shadow: inset 200px 0 0 0 darkslategray;
+  cursor:pointer;
+  color: white;
+}
+.button2 a{
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 538px;
+  padding: 8px;
+  width: 200px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: inset 0 0 0 0;
+  transition: ease-in-out 0.4s;
+  background: white;
+  border-radius: 25px;
+  color: black;
+  text-decoration:none;
+  font-size: 15px;
+}
+.button2 a:hover{
+  box-shadow: inset 200px 0 0 0 darkslategray;
+  cursor:pointer;
+  color: white;
+}
+footer{
+  background:#00292a;
+  padding: 20px;
+}
+h4{
+  text-align:center;
+  color: white;
+}
+
+h5{
+  text-align: center;
+  color: white;
+}

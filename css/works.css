@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00292a;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+header h3{
+  color: white;
+  position: absolute;
+  left: 600px;
+  font-size: 30px;
+}
+header ul{
+  flex: 1;
+}
+header ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 1px;
+  position: relative;
+}
+header ul li a.no-bg{
+  border: 2px solid;
+  padding: 10px 20px;
+  border-color: white;
+  border-radius: 25px;
+  margin: 1px;
+}
+header ul li a.with-bg{
+  text-decoration: none;
+  color: white;
+  border: 2px solid;
+  border-color: white;
+  background-color: darkslategray;
+  border-radius: 25px;
+  padding: 10px 20px;
+  position: relative;
+  margin: 1px;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+header ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: lightseagreen;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  transition: 0.3s;
+}
+header ul li:hover:after{
+  width: 100%;
+}
+main{
+  min-height: calc( 100% - 107px - 40px );
+}
+main .background{
+  background-attachment: fixed;
+  display: flex;
+  margin-bottom: 3px;
+}
+.background img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.but{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  left: 390px;
+}
+.but a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+}
+.but1{
+  width: 200px;
+  height: 80px;
+  box-shadow: inset 0 0 0 0 lightseagreen;
+  transition: ease-out 0.4s;
+  background: rgba(0,0,0,0.2);
+  border-radius: 25px;
+  margin: 1px;
+}
+.but1:hover{
+  box-shadow: inset 200px 0 0 0 lightseagreen;
+  cursor:pointer;
+  color: red;
+}
+.but2{
+  width: 200px;
+  height: 80px;
+  box-shadow: inset 0 0 0 0 lightseagreen;
+  transition: ease-in-out 0.4s;
+  background: rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+.but2:hover{
+  box-shadow: inset 200px 0 0 0 lightseagreen;
+  cursor:pointer;
+}
+footer{
+  background: #00292a;
+  padding: 20px;
+}
+h4{
+  text-align:center;
+  color: white;
+}
+h5{
+  text-align: center;
+  color: white;
+}

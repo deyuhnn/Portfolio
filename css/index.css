@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00292a;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+main{
+  min-height: calc( 100% - 105px - 40px );
+}
+
+h3{
+  color: white;
+  position: absolute;
+  left: 700px;
+  font-size: 28px;
+  
+}
+header ul{
+  flex: 1;
+}
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 1px;
+  position: relative;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+header ul li a.no-bg{
+  border: 2px solid;
+  padding: 10px 20px;
+  border-color: white;
+  border-radius: 25px;
+  margin: 1px;
+}
+header ul li a.with-bg{
+  text-decoration: none;
+  color: white;
+  border: 2px solid;
+  border-color: white;
+  background-color: darkslategray;
+  border-radius: 25px;
+  padding: 10px 20px;
+  position: relative;
+  margin: 1px;
+}
+
+ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: lightseagreen;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  transition: 0.3s;
+}
+ul li:hover:after{
+  width: 100%;
+}
+main .background{
+  background-attachment: fixed;
+  display: flex;
+  margin-bottom: 3px;
+}
+.background img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.background img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+main h1{
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 490px;
+  font-family: cursive ;
+  font-size: 70px;
+  border-bottom: 3px solid;
+  border-color: darkred;
+  border-radius: 25px;
+}
+p{
+  position: absolute;
+  top: 350px;
+  left: 490px;
+  width: 350px;
+  color: white;
+  font-size: 23px;
+  font-family: serif ;
+  background: black;
+  margin: 10px;
+  background: rgba( 0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 25px 20px rgba( 0, 0, 0, 0.8);
+  text-align: center;
+  border-bottom: 3px solid;
+  border-color: white;
+  border-top: 3px solid;
+}
+footer{
+  background: #00292a;
+  padding: 20px;
+}
+footer h4{
+  text-align:center;
+  color: white;
+}
+footer h5{
+  text-align: center;
+  color: white;
+}
+
+
+

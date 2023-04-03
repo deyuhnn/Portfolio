@@ -1,10 +1,10 @@
-*{
+﻿*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
+
   background: lightgray;
 }
 header{
@@ -23,8 +23,8 @@ header{
 header h3{
   color: white;
   position: absolute;
-  left: 600px;
-  font-size: 30px;
+  left: 700px;
+  font-size: 28px;
 }
 header ul{
   flex: 1;
@@ -92,37 +92,38 @@ main .background{
   align-items: center;
   position: absolute;
   top: 300px;
-  left: 590px;
+  left: 535px;
 }
 .but a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 26px;
   color:white;
+  font-family: serif;
 }
 .but1{
-  width: 200px;
-  height: 80px;
+  width: 280px;
+  height: 120px;
   box-shadow: inset 0 0 0 0 lightseagreen;
   transition: ease-out 0.4s;
   background: rgba(0,0,0,0.2);
   border-radius: 25px;
-  margin: 1px;
+  margin: 10px;
 }
 .but1:hover{
-  box-shadow: inset 200px 0 0 0 lightseagreen;
+  box-shadow: inset 280px 0 0 0 lightseagreen;
   cursor:pointer;
   color: red;
 }
 .but2{
-  width: 200px;
-  height: 80px;
+  width: 280px;
+  height: 120px;
   box-shadow: inset 0 0 0 0 lightseagreen;
   transition: ease-in-out 0.4s;
   background: rgba(0,0,0,0.2);
   border-radius: 25px;
 }
 .but2:hover{
-  box-shadow: inset 200px 0 0 0 lightseagreen;
+  box-shadow: inset 280px 0 0 0 lightseagreen;
   cursor:pointer;
 }
 footer{

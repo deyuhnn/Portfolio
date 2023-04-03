@@ -1,6 +1,5 @@
-body{
+﻿body{
     display: flex;
-    background-color: slategray;
     min-height: 100%;
     justify-content: center;
     align-items: center;
@@ -19,12 +18,12 @@ body{
 }
 .box .leftbox{
     position: relative;
-    background: dimgray;
+    background: lightslategray;
     padding: 40px;
 }
 .box .rightbox{
     position: relative;
-    background: #1c1c1c;
+    background: darkslategray;
     padding: 40px;
 }
 .name{
@@ -115,10 +114,10 @@ h1{
 .buttons ul{
   position: absolute;
   text-align: center;
-  color: white;
+  color: lightseagreen;
   list-style-type: none;
   top: 1200px;
-  left: 300px;
+  left: 35%;
   display: inline-flex;
 }
 .buttons ul li a{
@@ -131,5 +130,5 @@ h1{
   padding: 20px 70px;
 }
 .buttons ul li a:hover{
-  background: white;
+  background: lightseagreen;
 }

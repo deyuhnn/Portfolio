@@ -1,10 +1,10 @@
-*{
+﻿*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
   background: lightgray;
 }
 header{
@@ -23,8 +23,8 @@ header{
 header h3{
   color: white;
   position: absolute;
-  left: 600px;
-  font-size: 30px;
+  left: 700px;
+  font-size: 28px;
 }
 header ul{
   flex: 1;
@@ -71,9 +71,6 @@ header ul li::after{
 header ul li:hover:after{
   width: 100%;
 }
-main{
-  min-height: calc( 100% - 107px - 40px );
-}
 main .background{
   background-attachment: fixed;
   display: flex;
@@ -88,7 +85,7 @@ main .background{
   float: left;
   width: 350px;
   height: 450px;
-  margin-left: 190px;
+  margin-left: 280px;
   margin-top: -650px;
   position: relative;
   display: grid;
@@ -122,7 +119,7 @@ main .background{
     transition: 1.5s;
 }
 .wb1box2:hover{
-box-shadow: inset 300px 0 0 0 white;
+box-shadow: inset 350px 0 0 0 white;
 color: black;
 }
 .icon1{
@@ -132,6 +129,7 @@ color: black;
   text-align: center;
   position: absolute;
   top: 50px;
+  left: 75px;
 }
 .icon1 img{
   align-content: center;
@@ -156,9 +154,9 @@ color: black;
 }
 .wholebox2{
   float: right;
-  width: 300px;
-  height: 400px;
-  margin-right: 190px;
+  width: 350px;
+  height: 450px;
+  margin-right: 280px;
   margin-top: -650px;
   position: relative;
   display: grid;
@@ -174,7 +172,7 @@ color: black;
   border-color: white;
 }
 .wb2box1 img{
-  margin-left: 70px;
+  margin-left: 90px;
   clip-path: circle();
   width: 80px;
   height: 80px;
@@ -192,7 +190,7 @@ color: black;
     transition: 1.5s;
 }
 .wb2box2:hover{
-box-shadow: inset 300px 0 0 0 white;
+box-shadow: inset 350px 0 0 0 white;
 color: black;
 }
 .icon2{
@@ -202,6 +200,7 @@ color: black;
   text-align: center;
   position: absolute;
   top: 50px;
+  left: 75px;
 }
 .icon2 img{
   align-content: center;

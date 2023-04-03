@@ -105,9 +105,10 @@ main .background{
   height: 120px;
   box-shadow: inset 0 0 0 0 lightseagreen;
   transition: ease-out 0.4s;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.7);
   border-radius: 25px;
   margin: 10px;
+  border-color:white;
 }
 .but1:hover{
   box-shadow: inset 280px 0 0 0 lightseagreen;
@@ -119,8 +120,9 @@ main .background{
   height: 120px;
   box-shadow: inset 0 0 0 0 lightseagreen;
   transition: ease-in-out 0.4s;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.7);
   border-radius: 25px;
+  border-color:white;
 }
 .but2:hover{
   box-shadow: inset 280px 0 0 0 lightseagreen;
